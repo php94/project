@@ -4,9 +4,9 @@
     "type": "project",
     "license": "GPL-3.0",
     "scripts": {
-        "post-package-install": "PHP94\\Help\\Package::onInstall",
-        "post-package-update": "PHP94\\Help\\Package::onUpdate",
-        "pre-package-uninstall": "PHP94\\Help\\Package::onUnInstall"
+        "post-package-install": "PHP94\\Package::onInstall",
+        "post-package-update": "PHP94\\Package::onUpdate",
+        "pre-package-uninstall": "PHP94\\Package::onUnInstall"
     },
     "require": {
         "php94/framework": "^1.0"

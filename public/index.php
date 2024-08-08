@@ -1,6 +1,6 @@
 <?php
 
-use PHP94\Facade\Framework;
+use PHP94\Framework;
 
 require __DIR__ . '/../vendor/autoload.php';
 

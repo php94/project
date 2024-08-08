@@ -1,7 +1,7 @@
 <?php
 
-use PHP94\Facade\Router;
-use PHP94\Facade\Session;
+use PHP94\Router;
+use PHP94\Session;
 
 require __DIR__ . '/../vendor/autoload.php';
 
